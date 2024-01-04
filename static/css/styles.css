@@ -10797,8 +10797,9 @@ header.masthead .post-heading .meta a {
   }
 }
 
-col-md-5 img,
-featurette-image {
-  width: 100% !important;
+.col-md-5 img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
